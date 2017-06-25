@@ -24,5 +24,5 @@ Presently, this project is not up for collaboration.
 
 <br>
 
-*fresh_tomatoes.py*: Contains rewuired HTML, CSS, and other required elemnts to run the code.
+*fresh_tomatoes.py*: Contains required HTML, CSS, and other required elemnts to run the code.
 
