@@ -2,8 +2,7 @@
 import media  #Class to create movie objects. Holds movie instance variables and instance methods 
 import fresh_tomatoes  #Provides a functioning code to display movies 
 
-#Movie 1
-#DJ
+#Movie 1 DJ
 dj_title = 'Duvvada Jagannatham'
 dj_story_line = 'DJ is a traditionally raised Brahmin guy '
 'from Vijayawada in India who runs a catering business',
@@ -16,8 +15,7 @@ dj = media.Movie(dj_title,
                  dj_poster,
                  dj_trailer)
                  
-#Movie 2
-#SpiderMan Homecoming
+#Movie 2 SpiderMan Homecoming
 spiderman_homecoming_title = 'Spiderman Homecoming'
 spiderman_homecoming_storyline = 'A Spiderman Reboot'
 spiderman_homecoming_poster = 'https://cdn.vox-cdn.com/uploads/chorus_asset/file/8571017/spider_man_poster.jpg'
@@ -29,8 +27,7 @@ spiderman_homecoming = media.Movie(spiderman_homecoming_title,
                                    spiderman_homecoming_poster,
                                    spiderman_homecoming_trailer)
 
-#Movie 3
-#Cars 3
+#Movie 3 Cars 3
 cars3_title = 'Cars 3'
 cars3_storyline = 'Third installment of Cars movie'
 cars3_poster = 'http://cdn3-www.comingsoon.net/assets/uploads/2016/11/cars3internationalheader.jpg'
