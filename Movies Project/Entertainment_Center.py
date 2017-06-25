@@ -65,19 +65,19 @@ frozen = media.Movie(frozen_title,
                      frozen_trailer)
 
 #Movie 6 Lion King
-LionKing_title = 'The Lion King'
-LionKing_storyline = 'Story of lions in the Jungle'
-LionKing_poster = 'http://vignette3.wikia.nocookie.net/disney/images/c/cb/The_Lion_King_Textless_poster_1.jpg/revision/latest?cb=20140810104158'
-LionKing_trailer = 'hhttps://www.youtube.com/watch?v=4sj1MT05lAA'
+lion_king_title = 'The Lion King'
+lion_king_storyline = 'Story of lions in the Jungle'
+lion_king_poster = 'http://vignette3.wikia.nocookie.net/disney/images/c/cb/The_Lion_King_Textless_poster_1.jpg/revision/latest?cb=20140810104158'
+lion_king_trailer = 'hhttps://www.youtube.com/watch?v=4sj1MT05lAA'
 
-# LionKing Object creation
-LionKing = media.Movie(LionKing_title,
-                       LionKing_storyline,
-                       LionKing_poster,
-                       LionKing_trailer)
+# lion_king Object creation
+lion_king = media.Movie(lion_king_title,
+                       lion_king_storyline,
+                       lion_king_poster,
+                       lion_king_trailer)
 
 #Adding movies to a list
-movies = [dj,spiderman_homecoming, cars3, tiger,frozen, LionKing]
+movies = [dj,spiderman_homecoming, cars3, tiger,frozen, lion_king]
 
 #calling function to create movies page
 fresh_tomatoes.open_movies_page(movies)
