@@ -1,10 +1,20 @@
-import media
-import fresh_tomatoes
-#Movie 1 : DJ Movie
-dj = media.Movie('Duvvada Jagannatham',
-                 'DJ is a traditionally raised Brahmin guy from Vijayawada who runs a catering business',
-                 'http://www.yadtek.com/wp-content/uploads/2017/04/Allu-Arjun-DJ-Movie-Poster-5.jpg',                
-                 'https://www.youtube.com/watch?v=fy-kooz9se4')
+#import statements
+import media  #Class to create movie objects. Holds movie instance variables and instance methods 
+import fresh_tomatoes  #Priovides a functing code to display movies 
+
+#Movie 1
+#DJ
+dj_title = 'Duvvada Jagannatham'
+dj_story_line = 'DJ is a traditionally raised Brahmin guy from Vijayawada in India who runs a catering business',
+dj_poster = 'http://www.yadtek.com/wp-content/uploads/2017/04/Allu-Arjun-DJ-Movie-Poster-5.jpg'
+dj_trailer = 'https://www.youtube.com/watch?v=fy-kooz9se4'
+
+#DJ object creation
+dj = media.Movie(dj_title,
+                 dj_story_line,
+                 dj_poster,
+                 dj_trailer)
+                 
 #Movie 2
 #SpiderMan Homecoming
 spiderman_homecoming_title = 'Spiderman Homecoming'
@@ -14,14 +24,14 @@ spiderman_homecoming_trailer = 'https://www.youtube.com/watch?v=n9DwoQ7HWvI'
 
 #Spiderman_homecoming object creation
 spiderman_homecoming = media.Movie(spiderman_homecoming_title,
-spiderman_homecoming_storyline,
-spiderman_homecoming_poster,
-spiderman_homecoming_trailer)
+                                   spiderman_homecoming_storyline,
+                                   spiderman_homecoming_poster,
+                                   spiderman_homecoming_trailer)
 
 #Movie 3
 #Cars 3
 cars3_title = 'Cars 3'
-cars3_storyline = 'Third installment of Cars Movie'
+cars3_storyline = 'Third installment of Cars movie'
 cars3_poster = 'http://cdn3-www.comingsoon.net/assets/uploads/2016/11/cars3internationalheader.jpg'
 cars3_trailer = 'https://www.youtube.com/watch?v=2LeOH9AGJQM'
 
@@ -30,15 +40,15 @@ cars3 = media.Movie(cars3_title,cars3_storyline, cars3_poster, cars3_trailer )
 
 #Movie 4 Tiger
 Tiger_title = 'Tiger'
-Tiger_storyline = 'A Kannada Movie'
+Tiger_storyline = 'A Kannada movie'
 Tiger_poster = 'http://telugnet.na1381756400.netdna-cdn.com/wp-content/uploads/2015/06/tiger-movie-Review.jpg'
 Tiger_trailer = 'https://www.youtube.com/watch?v=7vkWcZ5Hepo'
 
 #Tiger object creation
 tiger = media.Movie(Tiger_title,
-Tiger_storyline,
-Tiger_poster,
-Tiger_trailer,
+	                Tiger_storyline,
+	                Tiger_poster,
+	                Tiger_trailer
 )
 
 #Movie 5 Frozen
@@ -49,9 +59,9 @@ frozen_trailer = 'https://www.youtube.com/watch?v=hb8WDATVB6A'
 
 # Fozen Object creation
 frozen = media.Movie(frozen_title,
-frozen_storyline,
-frozen_poster,
-frozen_trailer)
+                     frozen_storyline,
+                     frozen_poster,
+                     frozen_trailer)
 
 #Movie 6 Lion King
 LionKing_title = 'The Lion King'
@@ -61,11 +71,14 @@ LionKing_trailer = 'hhttps://www.youtube.com/watch?v=4sj1MT05lAA'
 
 # LionKing Object creation
 LionKing = media.Movie(LionKing_title,
-LionKing_storyline,
-LionKing_poster,
-LionKing_trailer)
+                       LionKing_storyline,
+                       LionKing_poster,
+                       LionKing_trailer)
 
+#Adding movies to a list
 movies = [dj,spiderman_homecoming, cars3, tiger,frozen, LionKing]
+
+#calling function to create movies page
 fresh_tomatoes.open_movies_page(movies)
 
 
