@@ -1,6 +1,6 @@
 #import statements
 import media  #Class to create movie objects. Holds movie instance variables and instance methods 
-import fresh_tomatoes  #Priovides a functioning code to display movies 
+import fresh_tomatoes  #Provides a functioning code to display movies 
 
 #Movie 1
 #DJ
