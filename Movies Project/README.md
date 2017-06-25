@@ -16,7 +16,7 @@ Presently, this project is not up for collaboration.
 1. Title
 2. Plot Summary
 3. Poster URL
-4. Trailer URL  
+4. Trailer URL   
 *entertainment_center.py*: Multiple instances (six to be precise) of Movie class are instantiated here. The class memebers are instantiated by giving the above mentioned instance attributes.
 *fresh_tomatoes.py*: Contains rewuired HTML, CSS, and other required elemnts to run the code.
 
