@@ -1,11 +1,12 @@
 #import statements
 import media  #Class to create movie objects. Holds movie instance variables and instance methods 
-import fresh_tomatoes  #Priovides a functing code to display movies 
+import fresh_tomatoes  #Priovides a functioning code to display movies 
 
 #Movie 1
 #DJ
 dj_title = 'Duvvada Jagannatham'
-dj_story_line = 'DJ is a traditionally raised Brahmin guy from Vijayawada in India who runs a catering business',
+dj_story_line = 'DJ is a traditionally raised Brahmin guy '
+'from Vijayawada in India who runs a catering business',
 dj_poster = 'http://www.yadtek.com/wp-content/uploads/2017/04/Allu-Arjun-DJ-Movie-Poster-5.jpg'
 dj_trailer = 'https://www.youtube.com/watch?v=fy-kooz9se4'
 
