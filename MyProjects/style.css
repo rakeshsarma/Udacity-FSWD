@@ -1,20 +1,56 @@
 h1 {
-	color: silver;
+	color: navy;
 	text-align: right;	
 	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 }
-body {
+/*body {
 	box-sizing: border-box;
-	padding: 50px;
-	border: 100px;
-	background-color: lavender;
+	padding: 10px;
+	border: 10px;
+	
 }
-@media screen and (min-width: 500px){
-	.titleImage{
-		max-width: 50px;
+*/
+@media screen {
+	.title-card{
+		box-sizing: border-box;
+		width: 50%;
+		height: auto;
 		opacity: 0.9;
+	}
+
+
+}
+.horizontal-line{
+	color: navy;
+}
+.top-bar {
+	
+	color:maroon;
+	text-align: right;
+	font-style: oblique;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+
+
+}
+.top-bar:hover { 
+    color: red;
+}
+.title-card{
+	height: 50%;
+	border-radius: 4px 4px 0px 0px;
+	border: 1px solid #ddd;
+	box-shadow: 10px 10px 5px #888888;
+	box-sizing: border-box;
+	display: block;
+}
+img, embed, object, video{
+	max-width: 100%;
 }
 
-
+.nav-bar{
+	min-height: 10%;
+	background-color: #075396;
+	color: #aebed0;
 }
