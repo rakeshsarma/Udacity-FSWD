@@ -1,0 +1,20 @@
+h1 {
+	color: silver;
+	text-align: right;	
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+}
+body {
+	box-sizing: border-box;
+	padding: 50px;
+	border: 100px;
+	background-color: lavender;
+}
+@media screen and (min-width: 500px){
+	.titleImage{
+		max-width: 50px;
+		opacity: 0.9;
+}
+
+
+}
