@@ -11,13 +11,7 @@ h1 {
 	
 }
 */
-@media screen {
-	.title-card{
-		box-sizing: border-box;
-		width: 50%;
-		height: auto;
-		opacity: 0.9;
-	}
+
 
 
 }
@@ -54,3 +48,13 @@ img, embed, object, video{
 	background-color: #075396;
 	color: #aebed0;
 }
+@media screen and (min-width: 500px) {
+	.title-card{
+		box-sizing: border-box;
+		width: 50%;
+		height: auto;
+		opacity: 0.9;
+	}
+	img{
+		max-width: 100%
+	}
