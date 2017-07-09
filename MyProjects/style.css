@@ -1,60 +1,60 @@
-h1 {
-	color: navy;
-	text-align: right;	
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-}
-/*body {
-	box-sizing: border-box;
-	padding: 10px;
-	border: 10px;
-	
-}
-*/
+
+/* Navbar is vertical*/
+body{
+
+	margin: 5%;
+
 
 
 
 }
-.horizontal-line{
-	color: navy;
+.name-caption{
+	border: 5%;
 }
-.top-bar {
-	
-	color:maroon;
+.my-name{
+
 	text-align: right;
-	font-style: oblique;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
+	color: red;
+}
+.caption{
 
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 70%
 
 }
-.top-bar:hover { 
-    color: red;
-}
-.title-card{
-	height: 50%;
-	border-radius: 4px 4px 0px 0px;
-	border: 1px solid #ddd;
-	box-shadow: 10px 10px 5px #888888;
-	box-sizing: border-box;
-	display: block;
-}
-img, embed, object, video{
-	max-width: 100%;
+.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
-.nav-bar{
-	min-height: 10%;
-	background-color: #075396;
-	color: #aebed0;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
-@media screen and (min-width: 500px) {
-	.title-card{
-		box-sizing: border-box;
-		width: 50%;
-		height: auto;
-		opacity: 0.9;
-	}
-	img{
-		max-width: 100%
-	}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.project-1{
+    float: left;
+}
+.navbar{
+    float: left;
+}
